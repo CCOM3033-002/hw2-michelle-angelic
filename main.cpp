@@ -9,7 +9,7 @@ using namespace std;
 int main(){
   // desplegar propósito del código 
 
-  cout << "Este programa suma dos fracciones."; 
+  cout << "Este programa suma dos fracciones." << endl; 
 
   // declarar variables para evitar problemas después
 
