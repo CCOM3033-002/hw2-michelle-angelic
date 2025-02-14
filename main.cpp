@@ -30,9 +30,26 @@ int main(){
   
   cin >> denom_1;
 
+  // pedir numerador de 2nda fracción
 
+  cout << "Entre el numerador de la segunda fracción: ";
+  cin >> num_2;
 
+  // pedir denominador de 2nda fracción
+
+  cout << "Entre el denominador de la segunda fracción: ";
+  cin >> denom_2;
+
+  // suma numeradores 
+
+  double sum_num = (num_1 * denom_2) + (num_2 * denom_1);
+
+  // suma denominadores 
   
+  double sum_denom = (denom_1 * denom_2);
+  
+  cout << "La suma es: " << sum_num << "/" << sum_denom << endl;
+
   
   return 0;
 }
